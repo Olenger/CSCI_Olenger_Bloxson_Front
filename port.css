@@ -7,3 +7,30 @@ body,a{
     color: rgb(100, 13, 100);
     text-align: center;
 }
+h3{
+    background-color: rgb(92, 167, 121);
+    color: rgb(100, 13, 100);
+    font-size: 16px;
+    
+}
+
+.myPic{
+    text-align: left;
+    border-radius: 90px;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(92, 167, 121);
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
