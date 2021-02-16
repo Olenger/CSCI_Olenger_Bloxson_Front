@@ -1,0 +1,95 @@
+img{
+    max-height: 5vw;
+}
+body,a{
+    background-color: rgb(92, 167, 121);
+    color: rgb(100, 13, 100);
+    text-align: center;
+}
+h3{
+    background-color: rgb(92, 167, 121);
+    color: rgb(100, 13, 100);
+    font-size: 16px;
+    
+}
+#myPic{
+    text-align: left;
+    border-radius: 90px;
+    max-height: 50vw;
+}
+.grid-item1 {
+  margin: 10px;
+  grid-area: pic;
+  text-align: left;
+ }
+ .grid-item2 {
+   grid-area: resume;
+ }
+ .grid-item3 {
+   grid-area: about;
+ }
+ .grid-item4 {
+   grid-area: port; 
+ }
+ .grid-item5 {
+   grid-area: contact; 
+ }
+ .space{
+     grid-area: space;
+ }
+.grid-container1 {
+    display: grid;
+    grid-gap: 1px; 
+    grid-template-areas: 
+    ' pic resume about port contact';
+    background-color: rgb(167, 160, 92);
+    padding: 1px;
+    margin: 1px;
+    text-align: right;
+  }
+  
+  .grid-container2{
+    display: grid;
+    grid-gap: 5px; 
+    grid-template-areas: 
+    'myPic'
+    'name'
+    'status'
+    'button';
+    background-color: rgb(92, 167, 121);
+    padding: 1px;
+    margin: 1px;
+  }
+  .button,.myPic,.name,.status{
+      text-align: center;
+  }
+  .myPic{
+      grid-area: myPic;
+      translate:50px, 100px;
+      transition: width 6s;
+      rotate: 4160;
+  }
+  .name{
+      grid-area: name;
+    
+  }
+  .status{
+      grid-area: status;
+      
+  }
+  .button{
+      grid-area: button;
+     
+  }
+  a:link{
+    color:rgb(100, 13, 100)
+  }
+a:visited{  
+  color:salmon
+}
+a:hover{
+translate: 50px,100;
+
+}
+ 
+
