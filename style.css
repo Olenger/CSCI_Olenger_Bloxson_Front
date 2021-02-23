@@ -5,6 +5,7 @@ body,a{
     background-color: rgb(92, 167, 121);
     color: rgb(100, 13, 100);
     text-align: center;
+    margin: 2px;
 }
 h3{
     background-color: rgb(92, 167, 121);
@@ -18,7 +19,7 @@ h3{
     max-height: 50vw;
 }
 .grid-item1 {
-  margin: 10px;
+  margin: 100px;
   grid-area: pic;
   text-align: left;
  }
