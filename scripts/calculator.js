@@ -27,18 +27,25 @@ function updateDisplay(newValue)
         case '*':
         case '/':
         case '=':
-            // if the current conten in the display box ends with (method)
-            // = - * or / then 
-                // do nothing break
-            // else append the new Value to the content
-
-            if(validInput !== false)
-            {
-                d.innerHTML += newValue;
-                validInpuut = false;
+            
+            if(d.innerHTML.endsWith("+")){
                 break;
             }
-        case '=':
-            break;
+            if(d.innerHTML.endsWith("-")){
+                break;
+            }
+            if(d.innerHTML.endsWith("*")){
+                break;
+            }
+             if(d.innerHTML.endsWith("*")){
+                break;
+        }
+                else{
+                    d.innerHTML += newValue;
+                }
     }
 }
+
+  
+    
+

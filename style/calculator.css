@@ -82,7 +82,8 @@
     .equal-key{
         grid-area: equal;
         background-color: honeydew;
-        height: 200px;
+        height: 215px;
+        line-height: 215px;
     }
     .clear{
         grid-area: clear;
