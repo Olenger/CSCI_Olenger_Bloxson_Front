@@ -37,7 +37,7 @@ function updateDisplay(newValue)
             if(d.innerHTML.endsWith("*")){
                 break;
             }
-             if(d.innerHTML.endsWith("*")){
+             if(d.innerHTML.endsWith("/")){
                 break;
         }
                 else{
