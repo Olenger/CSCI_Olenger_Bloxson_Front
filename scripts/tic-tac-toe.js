@@ -54,7 +54,7 @@ has ended with a winner or a tie.
 ● (5 marks) Once the game has ended, no player shall be allowed to place
 their markers.
 */
-function currentPlayerWon(spotId)
+function currentPlayerWon()
 {
   
     var s1 = document.getElementById('s1');
