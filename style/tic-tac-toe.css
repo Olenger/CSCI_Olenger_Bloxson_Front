@@ -2,13 +2,16 @@ h1,button{
     margin:auto;
     text-align: center;
 }
+body{
+    background-color: grey;
+    text-align: center;
+    color: rgb(126, 10, 10)
+}
 #container{
     display:grid;
     width: 300px;
     height: 300px;
     margin: auto;
-    
-    border-radius: 5px;
     align-content:center;
     padding: 1px;
     grid-gap: 1px;
@@ -25,6 +28,7 @@ h1,button{
     background-color:rgb(121, 34, 34);
     color: #ffffff;
     line-height: 90px;
+    font-size: 50px;
     cursor: pointer;
 }
 #s1{
