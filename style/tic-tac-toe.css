@@ -1,0 +1,61 @@
+h1,button{
+    margin:auto;
+    text-align: center;
+}
+#container{
+    display:grid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    
+    border-radius: 5px;
+    align-content:center;
+    padding: 1px;
+    grid-gap: 1px;
+    text-align: center;
+    grid-template-areas: 
+    'one two three'
+    'four five six'
+    'seven eight nine';
+}
+.spotId{
+    border: 2px black solid;
+    width: 90px;
+    height: 90px; 
+    background-color:rgb(121, 34, 34);
+    color: #ffffff;
+    line-height: 90px;
+    cursor: pointer;
+}
+#s1{
+    grid-area: one;
+}
+#s2{
+    grid-area: two;
+}
+#s3{
+    grid-area: three;
+}
+#s4{
+    grid-area: four;
+}
+#s5{
+    grid-area: five;
+}
+#s6{
+    grid-area: six;
+}
+#s7{
+    grid-area: seven;
+}
+#s8{
+    grid-area: eight;
+}
+#s9{
+    grid-area: nine;
+}
+
+#displayStatus{
+    align-content:center;
+
+}

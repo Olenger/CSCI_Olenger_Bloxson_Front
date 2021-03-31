@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/style/tic-tac-toe.css">
+   <script src="/scripts/tic-tac-toe.js"></script>
+    <title>tic tac toe</title>
+   
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <h3>The rules of the game</h3>
+    <li>
+        <ul>player x starts the game and makes a mark</ul>
+        <ul>then its player o turn and he makes a mark</ul>
+        <ul>continue to alternate players</ul>
+        <ul>once a player gets three in a row they win the game</ul>
+        <ul>if no one gets three in a row its a tie</ul>
+    </li>
+    <div class = container id= "container">
+            <div id="s1"class = "spotId" onclick= "document.getElementById('s1').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status" ></div>
+            <div id="s2"class = "spotId" onclick= "document.getElementById('s2').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id='s3'class = "spotId" onclick= "document.getElementById('s3').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s4"class = "spotId" onclick= "document.getElementById('s4').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s5"class = "spotId" onclick= "document.getElementById('s5').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s6"class = "spotId" onclick= "document.getElementById('s6').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s7"class = "spotId" onclick= "document.getElementById('s7').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s8"class = "spotId" onclick= "document.getElementById('s8').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+            <div id="s9"class = "spotId" onclick= "document.getElementById('s9').innerHTML= currentPlayer, placeMarker(totalMove++),currentPlayerWon(),document.getElementById('displayStatus').innerHTML= status"></div>
+    </div> 
+    <div id = 'displayStatus'></div>
+   
+</body>
+</html>
